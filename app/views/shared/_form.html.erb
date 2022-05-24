@@ -1,0 +1,6 @@
+<%= simple_form_for @task do |f| %>
+  <%= f.text_field :title, placeholder: "title" %>
+  <%= f.text_field :details, placeholder: "details" %>
+  <%= f.check_box :completed, placeholder: "completed"  %>
+  <%= f.submit %>
+<% end %>
